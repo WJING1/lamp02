@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 组员：这是用户路由
+Route::resource('user','UserController');
